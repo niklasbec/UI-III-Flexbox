@@ -227,4 +227,73 @@ h2{
 	position: relative;
 	bottom: 7px;
 }
+
+@media (max-width: 600px) {
+
+	.logo {
+		position: relative;
+		left: 5%;
+	}
+
+	header {
+		width: 400px;
+		flex-direction: row-reverse;
+		justify-content: left;
+	}
+
+
+	header nav {
+		position: relative;
+		left: 25%;
+		top: -5px;
+	}
+
+	header nav a {
+		margin-right: 18px;
+	}
+
+	.services p {
+		width: 520px;
+	}
+
+	.services h2 {
+		position: relative;
+		left: 28%;
+		margin-bottom: 20px;
+	}
+
+	.services-offered {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.services-boxes {
+		margin-left: 10%;
+	}
+
+	.copyright {
+		position: relative;
+		right: 15%;
+	}
+
+	.footer {
+		display: block;
+	}
+	
+	.services-info-img {
+		display: block;
+		position: relative;
+		left: 10%;
+		margin-top: 10%;
+	}
+
+	.footer-left {
+		position: relative;
+		left: 14%;
+	}
+}
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
